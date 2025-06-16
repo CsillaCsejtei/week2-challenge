@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/portfolio.css"/>
     <title>Portfolio contact page</title>
   </head>
   <body>
@@ -12,28 +13,39 @@
       <a href="./work.html" title="Csilla's work">Work</a>
       <a href="./contact.html" title="Contact Csilla">Contact</a>
     </nav>
-    <header></header>
+    <header><h1>Let's get in touch!</h1></header>
     <main>
       <form class="form">
-        <label for="name">Your name:</label>
-        <input type="text" name="name" id="name"/>
-        <label for="phone-number">Your phone number:</label>
-        <input type="tel" name="phone-number" id="phone-number"/>
-        <label for="email">Your email address:</label>
-        <input type="email" name="email" id="email"/>
+        <div><label for="name">Your name:</label>
+        <input type="text" name="name" id="name"/></div><br>
+        <div><label for="phone-number">Your phone number:</label>
+        <input type="tel" name="phone-number" id="phone-number"/></div><br>
+        <div><label for="email">Your email address:</label>
+        <input type="email" name="email" id="email"/></div><br>
         <label for="media">How did you hear about me?</label>
+        <div>
         <select name="media" id="media">
           <option value="facebook">Facebook</option>
           <option value="instagram">Instagram</option>
           <option value="search">Search engine</option>
           <option value="word-of-mouth">Word of mouth</option>
           <option value="other">Other</option>
-        </select>
+        </select></div>
+        <br>
+        <div>
+          <label for="message">Your message:</label>
+          <br>
+          <textarea class="textarea" rows="10" cols="38"></textarea>
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
       </form>
-      <div>
-        <p>Or email me at: </p>
-        <a href="mailto:csillacsejtei@gmail.com">csillacsejtei@gmail.com</a>
-      </div>
+      
+        <h3>Or email me at: </h3>
+        
+        <a href="mailto:csillacsejtei@gmail.com" class="e-mail">csillacsejtei@gmail.com</a>
+      
     </main>
     <footer>
       This project was coded by <strong>Csilla Csejtei</strong> and it is
