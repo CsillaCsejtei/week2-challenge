@@ -1,0 +1,92 @@
+:root {
+  --first-color: rgb(237, 245, 250);
+  --second-color: white;
+  --third-color: #fffe99;
+  --fouth-color: rgb(230, 251, 230);
+  --border-radius: 5px;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", serif;
+}
+
+body {
+  background-color: var(--first-color);
+  margin: 40px;
+}
+
+nav {
+  padding: 10px 0;
+  font-size: 24px;
+}
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  margin: 30px 20px;
+}
+.about {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+p {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 2;
+  text-align: justify;
+}
+.pics{
+  display:flex ;
+  justify-content: flex-start;
+  gap: 20px;
+}
+img {
+  border-radius: 5px;
+ 
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+form {
+  max-width: 300px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: var(--border-radius);
+  background-color: var(--fouth-color);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+}
+input {
+  width: 100%;
+}
+input:focus,
+.textarea:focus {
+  background-color: var(--third-color);
+}
+.e-mail {
+  font-size: 24px;
+}
+footer {
+  font-size: 16px;
+  margin: 40px 0;
+}
